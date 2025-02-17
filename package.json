@@ -1,0 +1,32 @@
+{
+	"name": "scope-search",
+	"version": "1.0.0",
+	"author": "EvanZhouDev",
+	"description": "The fast, free, self-hosted SERP solution, built for AI and LLMs.",
+	"license": "GPL-3.0",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/EvanZhouDev/scope-search.git"
+	},
+	"homepage": "https://github.com/EvanZhouDev/scope-search",
+	"keywords": [
+		"search",
+		"serp",
+		"llm"
+	],
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"type": "module",
+	"dependencies": {
+		"cheerio": "^1.0.0",
+		"express": "^4.21.2",
+		"minimist": "^1.2.8",
+		"puppeteer": "^24.2.1",
+		"user-agents": "^1.1.452"
+	},
+	"bin": {
+		"scope": "./serve.js"
+	}
+}
