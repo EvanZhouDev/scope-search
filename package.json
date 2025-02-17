@@ -27,6 +27,6 @@
 		"user-agents": "^1.1.452"
 	},
 	"bin": {
-		"scope": "./serve.js"
+		"scope": "serve.js"
 	}
 }
